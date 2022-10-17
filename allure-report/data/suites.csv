@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Oct 16 19:46:15 CEST 2022","Sun Oct 16 19:46:17 CEST 2022","1482","","Login as Bank Manager","","Login as Bank Manager","Verify title of the page","Verify title of the page",""
+"passed","Sun Oct 16 19:46:07 CEST 2022","Sun Oct 16 19:46:11 CEST 2022","3982","","Adding a new customer","","Adding a new customer","Add customer details","Add customer details",""
+"passed","Sun Oct 16 19:46:17 CEST 2022","Sun Oct 16 19:46:18 CEST 2022","1175","","Login as Bank Manager","","Login as Bank Manager","Verify login as a Bank Manager","Verify login as a Bank Manager",""
+"passed","Sun Oct 16 19:46:21 CEST 2022","Sun Oct 16 19:46:25 CEST 2022","3826","","Open account customer","","Open account customer","Open Account test","Open Account test",""
+"broken","Sat Oct 15 22:34:30 CEST 2022","Sat Oct 15 22:34:30 CEST 2022","124","","","","","An uncaught error was detected outside of a test","An uncaught error was detected outside of a test",""

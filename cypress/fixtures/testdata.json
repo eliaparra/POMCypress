@@ -1,0 +1,11 @@
+{
+
+    "firstName": "NombrePrueba",
+    "lastName":"ApellidoPrueba",
+    "postCode":"123456",
+    "alertMsg":"Customer added successfully",
+
+    "customer": "Albus Dumbledore",
+    "currency": "Dollar",
+    "alertAccount":"Account created successfully"
+}

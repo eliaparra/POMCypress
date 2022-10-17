@@ -1,0 +1,29 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "personal project",
+  "main": "index.js",
+  "scripts": {
+    "testcases": "./node_modules/.bin/cypress run --spec ./cypress/e2e/tests/*.cy.js --browser chrome",
+    "testcases-allure": "./node_modules/.bin/cypress run --spec ./cypress/e2e/tests/*.cy.js --browser chrome mocha --reporter mocha-allure-reporter",
+    "generate-allurereports": "allure generate allure-results --clean -o allure-report -and allure open allure-report",
+    "finaltest-allure": "npm run testcases-allure -and npm run generate-allurereports"
+  },
+  "author": "Elia",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.1",
+    "@shelex/cypress-allure-plugin": "^2.33.0",
+    "allure-commandline": "^2.18.1",
+    "cypress": "^10.9.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1",
+    "mocha-allure-reporter": "^1.4.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.3"
+  }
+}
